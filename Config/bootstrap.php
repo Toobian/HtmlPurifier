@@ -1,6 +1,6 @@
 <?php
 if (Configure::read('HtmlPurifier.standalone') != true) {
-	require_once( CakePlugin::path('HtmlPurifier') . 'Vendor' . DS . 'HtmlPurifier' . DS . 'library' . DS . 'HTMLPurifier.auto.php' );
+	require_once( CakePlugin::path('HtmlPurifier') . 'Vendor' . DS . 'htmlpurifier' . DS . 'library' . DS . 'HTMLPurifier.auto.php' );
 } else {
 	require_once( CakePlugin::path('HtmlPurifier') . 'Vendor' . DS . 'Htmlpurifier-4.4.0-standalone' . DS . 'HTMLPurifier.standalone.php' );
 }
